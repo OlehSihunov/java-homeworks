@@ -40,6 +40,7 @@ public class Homework1 {
         StringBuilder str = new StringBuilder();
         for (int i : getPrimes(min,max)) {
             boolean ispalindrome = String.valueOf(i).equals(new StringBuilder(String.valueOf(i)).reverse().toString());
+
             if(ispalindrome){
                 result.add(i);
             }
